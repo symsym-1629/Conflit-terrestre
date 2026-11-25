@@ -133,11 +133,11 @@ void PendSV_Handler(void)
   */
 /* Since the use of HAL_SYSTICK_IRQHandler() has been discontinued by ST, implementation
  * of Systick_Handler is transfered to stm32g4_systick.c in order to manage callback functions */
-void SysTick_Handler(void)
-{
+//void SysTick_Handler(void)
+//{
 
 
-}
+//}
 
 /******************************************************************************/
 /* STM32G4xx Peripheral Interrupt Handlers                                    */
